@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <title>Alif Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1000">
+                <span>Lif Berri</span>
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100"><a href="#">Home</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"><a href="#">About</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300"><a href="#Skills">Skills</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400"><a href="#Projects">Projects</a></div>
+                <div class="link contact-btn" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500"><a href="#Contact">Contact Me</a></div>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        </div>
+        <div class="dropdown">
+            <div class="links">
+                <a href="">Home</a>
+                <a href="#Skills">Skills</a>
+                <a href="#Projects">Projects</a>
+                <a href="#Contact">Contact Me</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+        <section class="Home" id="Home">
+            <div class="main-container">
+                <div class="image" data-aos="zoom-in-right" data-aos-duration="2500">
+                    <img src="assets/profiel.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h1 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="800">Hey I'm <span>M Alif Berri Rossi</span></h1>
+                    <div class="typewriter" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="900">I'm an <span></span></div>
+                    <p data-aos="flip-up" data-aos-duration="1000" data-aos-delay="1000">Perjalanan bukan hanya tentang mencapai tujuan, tapi tentang apa yang kita pelajari, siapa yang kita temui, dan bagaimana kita berubah di sepanjang jalan. Waktu mungkin terasa abadi, tapi bagi manusia itu hanya sesaat. Mulai belajar menghargai apa yang berarti dalam waktu yang singkat</p>
+                    <div class="social-links" data-aos="flip-down" data-aos-duration="1000" data-aos-delay="1200">
+                        <a href="#" ><i class="fa-brands fa-github"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                    </div>
+                    <div class="btn" data-aos="zoom-out-left" data-aos-duration="1000" data-aos-delay="1300">
+                        <button>Download CV</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="Skills">
+            <div class="skills-header">
+                <h2>Skills</h2>
+                <h3>Skills & Experience</h3>
+            </div>
+            <div class="skills-content">
+                <div class="skills-icons">
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-js"></i>
+                </div>
+                <div class="skills-exp">
+                    <div class="exp-hmif">
+                        Himpunan Mahasiswa Informatika
+                        <div class="ol">
+                            <li>Staff of Talent and Interest Development Sport Division</li>
+                            <li>Person in Charge of Sport Competition IF CUP 2024</li>
+                            <li>Staff of Esport Competition SRIFOTON 2024</li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="Projects">
+            <div class="projects-header">
+                <h2>Projects</h2>
+                <h3>My Projects </h3>
+            </div>
+            <div class="pj">
+                <h3>ReNovel</h3>
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="assets/pti1.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="assets/pti3.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="assets/pti2.jpg" alt=""></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+            <div class="pj">
+                <h3>MyWatchlist</h3>
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="assets/mwl1.png" alt=""></div>
+                        <div class="swiper-slide"><img src="assets/mwl2.png" alt=""></div>
+                        <div class="swiper-slide"><img src="assets/mwl3.png" alt=""></div>
+                        <div class="swiper-slide"><img src="assets/mwl4.png" alt=""></div>
+                        <div class="swiper-slide"><img src="assets/mwl5.png" alt=""></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="Contact">
+            <div class="contact-container">
+                <h1>Contact Us</h1>
+                <form class="contact-form">
+                  <label for="name">Name</label>
+                  <input type="text" id="name" placeholder="Your name" required>
+            
+                  <label for="email">Email</label>
+                  <input type="email" id="email" placeholder="Your email" required>
+            
+                  <label for="message">Message</label>
+                  <textarea id="message" placeholder="Your message" rows="5" required></textarea>
+            
+                  <button type="submit">Submit</button>
+                </form>
+              </div>            
+        </section>
+
+        <footer>
+            <div class="footerContainer">
+                <div class="socialIcons">
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+                <div class="footerNav">
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="movies">Skills</a></li>
+                        <li><a href="about">Projects</a></li>
+                        <li><a href="contact">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footerBottom">
+                <p>Copyright &copy;2024; Designed by <span class="designer">M Alif Berri Rossi</span></p>
+            </div>
+        </footer>
+        
+        
+
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init({offset:0});
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="script.js"></script>
+</body>
+</html>
